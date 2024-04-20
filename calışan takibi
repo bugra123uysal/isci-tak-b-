@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* çalışan takibi buttonların olduğu  yer */
+        #takip{
+            position: absolute;
+            top: 150px;
+            left: 470px;
+        }
+        /* giriş saatleri */
+        #aa{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-decoration: black;
+            transition: 2s;
+            
+            text-align: center;
+
+        }
+        #aa:hover{
+            scale: 1.1 ;
+         
+
+        }
+        /* çıkkış saatleri */
+
+        #bb{
+            position: relative ;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-decoration: black;
+            transition: 2s;
+          
+            text-align: center;
+
+
+
+        }
+        #bb:hover{
+            scale: 1.1 ;
+         
+
+        }
+        /* bedensel bilgiler */
+        #cc{
+            position: relative ;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-decoration: black;
+            transition: 2s;
+        
+            text-align: center;
+
+
+
+        }
+        #cc:hover{
+            scale: 1.1 ;
+         
+
+        }
+  /* alinan kalor' */
+
+ #dd{
+            position: relative ;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-decoration: black;
+            transition: 2s;
+           
+            text-align: center;
+
+
+
+        }
+        #dd:hover{
+            scale: 1.1 ;
+         
+
+        }
+
+
+
+        /* şikayetlerim */
+        #ee{
+            position: relative ;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-decoration: black;
+            transition: 2s;
+           
+            text-align: center;
+
+
+
+        }
+        #ee:hover{
+            scale: 1.1 ;
+         
+
+        }
+
+
+        /* izin kullanma */
+        #ff{
+            position: relative ;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-decoration: black;
+            transition: 2s;
+           
+            text-align: center;
+
+
+
+        }
+        #ff:hover{
+            scale: 1.1 ;
+         
+
+        }
+
+        
+    </style>
+    <title>çalışan takibi</title>
+
+</head>
+<body  >
+<base target="_blank">
+    
+  <div id="takip"  >
+    <button  onclick="gel('çalışma saatleri.html')"  id="aa">çalışma saati</button>
+    <button onclick="gel('')" id="cc">vucut ölçüleri</button>
+    <button onclick="gel('')" id="dd">alınan kalori </button>
+    <button onclick="gel('file:///C:/Users/bu%C4%9Fra/Desktop/tkb/%C5%9Fikayetlerim.html')" id="ee">şikayetlerim </button>
+    <button onclick="gel('')" id="ff">izin kullanma </button>
+
+
+
+
+  </div>
+
+
+
+  <script>
+   
+    function gel(ta){
+        window.location.href=ta
+
+
+    }
+  </script>
+    
+</body>
+</html>
